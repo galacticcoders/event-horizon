@@ -1,0 +1,11 @@
+[package]
+name = "event-horizon"
+version = "0.1.0"
+authors = ["Dragosh <git@dcx86.dev>"]
+edition = "2024"
+description = "Minimal Rust CLI for managing events"
+license = "MIT"
+repository = "https://github.com/galacticcoders/event-horizon.git"
+
+# Exclude non-source files from crates.io
+exclude = ["homebrew/*", "debian/*", "releases/*"]
